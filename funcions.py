@@ -1,4 +1,7 @@
-nombre = int(input("Introdueix una alçada: "))
+def imprimir_asterisc (n):
+    print("*"*int(n))
 
-for i in range (1, nombre+1):
-    print("*"*i)
+altura = int (input("Introdueix altura: "))
+for i in range (1, altura+1):
+    imprimir_asterisc(i)
+    
